@@ -19,7 +19,7 @@ COPY . .
 WORKDIR /app
 
 # Expose the server port
-EXPOSE 80
+EXPOSE 8099
 
 # Run the server
 CMD ["uv", "run", "."]
