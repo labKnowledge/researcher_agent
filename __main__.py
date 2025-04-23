@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 @click.command()
 @click.option("--host", "host", default="localhost")
-@click.option("--port", "port", default=10011)  # Different port than the image generator
+@click.option("--port", "port", default=80)  # Different port than the image generator
 def main(host, port):
     """Entry point for the A2A + CrewAI Research Agent sample."""
     try:
