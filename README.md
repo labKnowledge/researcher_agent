@@ -9,6 +9,7 @@ A web research agent built with the Agent-to-Agent (A2A) protocol that performs 
 - Cited sources with each research response
 - A2A protocol compatible for integration with other agents
 - Configurable API endpoint serving research capabilities
+- Powered by Qwen model for advanced language understanding and response generation
 
 ## Installation
 
@@ -16,6 +17,7 @@ A web research agent built with the Agent-to-Agent (A2A) protocol that performs 
 
 - Python 3.12 or higher
 - [Google API key](https://console.cloud.google.com/) for Gemini model access
+- Access to Qwen model API
 
 ### Setup
 
